@@ -9,4 +9,4 @@ with open("favorites.csv") as file:
         counts[row["algorithm"]] += 1
             
 for favorite, count in counts.most_common():
-    print(f"{favorite}: {counts[favorite]}")
+    print(f"{favorite}: {counts[favorite]}")    
