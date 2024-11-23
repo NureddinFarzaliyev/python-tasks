@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+
+# pipenv or poetry files (if applicable)
+*.env
+Pipfile.lock
+poetry.lock

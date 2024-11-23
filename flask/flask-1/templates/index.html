@@ -1,0 +1,14 @@
+    {% extends "layout.html" %}
+
+    {% block body %}
+
+        <form action="/" method="post">
+            <input type="text" placeholder="name" name="name">
+                <!-- An array of sports will be rendered as a selection list -->
+                {% for sport in sports %}
+                    <input value={{sport}} type="checkbox" name="sport">{{sport}}</option>
+                {% endfor %}
+            <button type="submit">Submit</button>
+        </form>
+
+    {% endblock %}
