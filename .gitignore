@@ -16,3 +16,5 @@ __pycache__/
 Pipfile.lock
 poetry.lock
 
+*.pdf
+output_questions.json
