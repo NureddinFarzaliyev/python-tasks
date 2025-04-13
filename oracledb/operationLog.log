@@ -93,3 +93,20 @@ DPY-6001: Service "xe" is not registered with the listener at host "127.0.0.1" p
 2025-04-13 11:15:32.477100 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
 2025-04-13 11:17:03.222626 [INFO] [CONNECT] [system] : Connected to the OracleDB 
 2025-04-13 11:17:08.520958 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 12:32:18.358389 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 12:32:57.817594 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 12:35:42.753803 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 12:36:09.931198 [ERROR] [SHOW_TABLES] [system] : Cursor not initialized 
+2025-04-13 12:36:41.484119 [ERROR] [SHOW_TABLES] [system] : Cursor not initialized 
+2025-04-13 12:36:47.767175 [ERROR] [CONNECT] [system] : Error connecting to the database: DPY-6005: cannot connect to database (CONNECTION_ID=ZqHdDRWS5bC4DyYS3/Dncg==).
+[Errno 111] Connection refused 
+2025-04-13 12:37:22.298004 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 12:37:34.477155 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-13 12:37:40.023017 [INFO] [SHOW_TABLES] [system] : Tables displayed successfully 
+2025-04-13 12:37:56.588590 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 12:38:45.092911 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 12:38:53.702125 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 12:40:35.454799 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 12:40:39.733904 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 12:40:44.197883 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 12:40:48.022538 [INFO] [SHOW_TABLES] [system] : Tables displayed successfully 

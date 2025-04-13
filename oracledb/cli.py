@@ -15,7 +15,8 @@ class CommandLineInterface:
             "show_table_rows": self.show_table_rows,
             "insert_row": self.insert_row,
             "delete_row": self.delete_row,
-            "status": self.status
+            "status": self.status,
+            "log": self.log,
         }
 
     def start(self):
@@ -30,18 +31,12 @@ class CommandLineInterface:
             print("Not connected to the OracleDB")
 
     def help(self):
-        print("Available commands:")
-        print("- connect")
-        print("- disconnect")
-        print("- create_table")
-        print("- show_all_tables")
-        print("- show_table_rows")
-        print("- insert_row")
-        print("- delete_row")
+        print("You can use the commands below to interact with the Database:")
+        for command in self.commands.keys():
+            print(f"- {command}")
 
     def exit(self):
         print("Exiting CLI...")
-        DB.disconnect()
         exit()
 
     def connect(self):
@@ -56,9 +51,7 @@ class CommandLineInterface:
         DB.create_table(table_name, columns)
 
     def show_all_tables(self):
-        tables = DB.show_all_tables()
-        for table in tables:
-            print(table[0])
+        DB.show_all_tables()
 
     def show_table_rows(self):
         table_name = input("Enter table name: ")
@@ -77,6 +70,14 @@ class CommandLineInterface:
 
     def invalid(self):
         print("Invalid command!")
+
+    def log(self):
+        n = int(input("Enter the number of logs you want to see: "))
+        with open('operationLog.log', 'r') as file:
+            lines = file.readlines()
+            last_n_lines = lines[-n:]
+            for line in last_n_lines:
+                print(line.strip())
 
     def execute(self, command):
         if command in self.commands:
