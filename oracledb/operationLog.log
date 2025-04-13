@@ -1,0 +1,95 @@
+2025-04-11 14:10:31.876276 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:10:38.711610 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:10:41.385857 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:12:11.435795 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:12:11.439508 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-11 14:12:23.823853 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:12:23.827322 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-11 14:16:53.870457 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:16:54.148882 [INFO] [SHOW_TABLES] [system] : Tables displayed successfully 
+2025-04-11 14:19:35.243868 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:19:35.449208 [INFO] [SHOW_USER_TABLES] [system] : User tables displayed successfully 
+2025-04-11 14:20:31.470643 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:20:31.579529 [INFO] [SHOW_TABLES] [system] : Tables displayed successfully 
+2025-04-11 14:22:11.548404 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:22:11.581647 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'STUDENT' displayed successfully 
+2025-04-11 14:22:19.394131 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:22:19.424381 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 14:23:06.273698 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:25:07.442317 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:25:14.137438 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:25:52.554418 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:30:57.676592 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:30:57.677358 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 14:32:13.640650 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:32:13.641757 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 14:32:30.524499 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:32:30.525295 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 14:32:33.534696 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:32:33.540667 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 14:32:43.168364 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:32:43.169611 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 14:32:43.172553 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 14:37:04.547708 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:37:04.548743 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 14:38:45.978105 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:38:45.978449 [ERROR] [INSERT_ROW] [system] : Error inserting row: sequence item 0: expected str instance, int found 
+2025-04-11 14:40:31.341051 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:40:31.346884 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 14:40:37.787007 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:43:48.680982 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 14:43:48.682353 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 15:31:54.998993 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:31:54.999885 [ERROR] [INSERT_ROW] [system] : Error inserting row: DPY-4009: 0 positional bind values are required but 5 were provided 
+2025-04-11 15:35:44.122827 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:35:44.123030 [ERROR] [INSERT_ROW] [system] : Error inserting row: sequence item 0: expected str instance, int found 
+2025-04-11 15:36:13.770095 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:36:13.770815 [ERROR] [INSERT_ROW] [system] : Error inserting row: sequence item 0: expected str instance, int found 
+2025-04-11 15:37:11.923485 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:37:26.182899 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:38:15.195195 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:38:15.220420 [ERROR] [INSERT_ROW] [system] : Error inserting row: ORA-04054: database link DOE.COM does not exist
+Help: https://docs.oracle.com/error-help/db/ora-04054/ 
+2025-04-11 15:38:42.615605 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:38:42.621097 [ERROR] [INSERT_ROW] [system] : Error inserting row: ORA-04054: database link GMAIL.COM does not exist
+Help: https://docs.oracle.com/error-help/db/ora-04054/ 
+2025-04-11 15:41:27.226713 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:41:27.230757 [ERROR] [INSERT_ROW] [system] : Error inserting row: ORA-04054: database link GMAIL.COM does not exist
+Help: https://docs.oracle.com/error-help/db/ora-04054/ 
+2025-04-11 15:43:57.536373 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:43:57.546112 [ERROR] [INSERT_ROW] [system] : Error inserting row: ORA-04054: database link GMAIL.COM does not exist
+Help: https://docs.oracle.com/error-help/db/ora-04054/ 
+2025-04-11 15:45:08.970820 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:45:22.350326 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:45:22.380074 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 15:54:05.522412 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:54:21.538727 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:54:21.548221 [INFO] [INSERT_ROW] [system] : Row inserted successfully 
+2025-04-11 15:56:02.797143 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:56:02.802633 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 15:56:34.576940 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:56:42.254454 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 15:56:42.257483 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 16:25:24.864845 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 16:25:24.870282 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 16:25:24.873652 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-11 16:28:21.608327 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-11 16:28:21.611867 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-11 16:28:21.615076 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 10:46:50.038085 [ERROR] [CONNECT] [system] : Error connecting to the database: DPY-6005: cannot connect to database (CONNECTION_ID=t5OJXpvR0whRDrSs1gdOhQ==).
+[Errno 111] Connection refused 
+2025-04-13 10:47:04.504918 [ERROR] [CONNECT] [system] : Error connecting to the database: DPY-6005: cannot connect to database (CONNECTION_ID=19QWhGLQEsJ5dQV24ROVJA==).
+DPY-6001: Service "xe" is not registered with the listener at host "127.0.0.1" port 1521. (Similar to ORA-12514) 
+2025-04-13 10:47:15.210348 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 10:59:27.996232 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 11:12:04.701131 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 11:12:10.487341 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 11:12:14.383967 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
+2025-04-13 11:12:15.768373 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 11:12:27.939547 [INFO] [SHOW_TABLES] [system] : Tables displayed successfully 
+2025-04-13 11:12:49.934435 [ERROR] [SHOW_TABLE_ROWS] [system] : Cursor not initialized 
+2025-04-13 11:15:14.574449 [ERROR] [SHOW_TABLE_ROWS] [system] : Cursor not initialized 
+2025-04-13 11:15:19.520771 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 11:15:32.477100 [INFO] [SHOW_TABLE_ROWS] [system] : Rows in 'CUSTOMERS' displayed successfully 
+2025-04-13 11:17:03.222626 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-13 11:17:08.520958 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
