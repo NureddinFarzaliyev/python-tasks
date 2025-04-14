@@ -1,3 +1,4 @@
+import datetime
 from db import DatabaseConnection
 DB = DatabaseConnection()
 
@@ -17,6 +18,7 @@ class CommandLineInterface:
             "delete_row": self.delete_row,
             "status": self.status,
             "log": self.log,
+            "log_csv": self.log_csv
         }
 
     def start(self):
@@ -79,6 +81,21 @@ class CommandLineInterface:
             for line in last_n_lines:
                 print(line.strip())
 
+    def log_csv(self):
+        fileName = f"operationLog-{datetime.datetime.now().strftime("%Y%m%d_%H%M%S")}.csv"
+        try:
+            with open("operationLog.log", 'r') as f:
+                        lines = f.readlines()
+
+            with open(fileName, 'w') as csv:
+                for line in lines:
+                    csv.write(line.replace(" ", ","))
+
+            print(f"CSV file saved as {fileName}")
+        except FileNotFoundError:
+                print("Log file not found")
+        except Exception as e:
+            print(f"An error occurred: {e}")
     def execute(self, command):
         if command in self.commands:
             self.commands[command]()

@@ -110,3 +110,6 @@ DPY-6001: Service "xe" is not registered with the listener at host "127.0.0.1" p
 2025-04-13 12:40:39.733904 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
 2025-04-13 12:40:44.197883 [INFO] [CONNECT] [system] : Connected to the OracleDB 
 2025-04-13 12:40:48.022538 [INFO] [SHOW_TABLES] [system] : Tables displayed successfully 
+2025-04-14 17:02:54.078162 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-14 17:04:15.108307 [INFO] [CONNECT] [system] : Connected to the OracleDB 
+2025-04-14 17:04:40.612223 [INFO] [DISCONNECT] [system] : Disconnected from the OracleDB 
