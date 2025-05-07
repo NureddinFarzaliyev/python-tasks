@@ -2,8 +2,9 @@ import json
 import random
 
 isRunning = True
+fileName = input("File name (do not include .json extension): ")
 
-with open('output_questions.json', 'r') as f:
+with open(f'{fileName}.json', 'r') as f:
     questions_data = json.load(f)
     while isRunning:
         random_number = random.randint(0, len(questions_data) - 1)
