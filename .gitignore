@@ -18,3 +18,7 @@ poetry.lock
 
 *.pdf
 output_questions.json
+
+bank-boxplot.png
+bank-names.txt
+bank.csv
